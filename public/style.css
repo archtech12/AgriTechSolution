@@ -1,0 +1,238 @@
+/* public/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+/* public/style.css */
+
+nav.side-nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* ... (other styles) */
+
+
+nav.side-nav ul {
+    padding: 0;
+}
+
+nav.side-nav li {
+    list-style: none;
+    padding: 15px;
+}
+
+nav.side-nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+nav.side-nav a:hover {
+    background-color: #555;
+}
+
+.main-content {
+    margin-left: 200px;
+    transition: margin-left 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+    nav.side-nav {
+        width: 100%;
+        left: -100%;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #4caf50;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+button {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

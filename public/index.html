@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Agri Tech Solution</title>
+</head>
+
+<body>
+
+    <!-- Inside the body section -->
+<section id="profile">
+    <h2>My Profile</h2>
+    <p>Welcome, <span id="username"></span>!</p>
+    <!-- Include additional user-related information here -->
+    <button onclick="logout()">Logout</button>
+</section>
+
+
+    <nav class="side-nav">
+        <ul>
+            <li><a href="#dashboard" onclick="navigateToDashboard()">Dashboard</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="features">Features</a></li>
+            <li><a href="contact">Contact Us</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#crop-yields">Crop Yields</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to Agri Tech Solution</h1>
+        <p>Transforming Agriculture with Technology</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Agri Tech Solution is dedicated to revolutionizing agriculture. Our mission is to empower farmers with data-driven
+            solutions.
+        </p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Real-time Weather Updates</li>
+            <li>Market Price Information</li>
+            <li>Crop Management Recommendations</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or suggestion? Reach out to us!</p>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="weather">
+        <h2>Real-time Weather Updates</h2>
+        <div id="weather-content"></div>
+    </section>
+
+    <!-- Inside the body section -->
+<section id="weather-updates">
+    <h2>Real-Time Weather Updates</h2>
+    <p id="weather-info">Fetching weather data...</p>
+</section>
+
+
+    <section id="crop-yields">
+        <h2>Crop Yields</h2>
+        <ul id="crop-list"></ul>
+    </section>
+    <!-- Inside the body section -->
+<section id="crop-yields-and-prices">
+    <h2>Crop Yields and Prices</h2>
+    <ul id="crop-yields-list"></ul>
+    <ul id="crop-prices-list"></ul>
+</section>
+
+
+    <!-- Inside the body section -->
+<section id="market-prices">
+    <h2>Market Prices</h2>
+    <ul id="crop-prices-list"></ul>
+</section>
+
+<!-- Inside the body section -->
+<section id="crop-management">
+    <h2>Crop Management</h2>
+    <ul id="crop-management-tips"></ul>
+</section>
+
+<!-- Inside the body section -->
+<section id="user-preferences">
+    <h2>User Preferences</h2>
+    <form onsubmit="saveUserPreferences(); return false;">
+        <label for="preferred-crops">Preferred Crops:</label>
+        <input type="text" id="preferred-crops" name="preferred-crops" />
+
+        <label for="preferred-region">Preferred Region:</label>
+        <input type="text" id="preferred-region" name="preferred-region" />
+
+        <button type="submit">Save Preferences</button>
+    </form>
+</section>
+
+
+
+    <section id="login">
+        <h2>Login</h2>
+
+        <!-- Inside the #login section -->
+<form action="" onsubmit="login(); return false;">
+   <label for="loginEmail">Email:</label>
+   <input type="email" id="loginEmail" name="loginEmail" required />
+
+   <label for="loginPassword">Password:</label>
+   <input type="password" id="loginPassword" name="loginPassword" required />
+
+   <button type="submit">Login</button>
+</form>
+
+<!-- Inside the #register section -->
+    <section id="register">
+        <h2>Register</h2>
+        <form action="" onsubmit="register(); return false;">
+         <label for="registerName">Name:</label>
+         <input type="text" id="registerName" name="registerName" required />
+      
+         <label for="registerEmail">Email:</label>
+         <input type="email" id="registerEmail" name="registerEmail" required />
+      
+         <label for="registerPassword">Password:</label>
+         <input type="password" id="registerPassword" name="registerPassword" required />
+      
+         <button type="submit">Register</button>
+      </form>
+      
+          </section>
+          <!-- Inside the body section -->
+<section id="dashboard">
+    <h2>Dashboard</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <div id="weather-summary"></div>
+    <div id="market-summary"></div>
+    <div id="crop-recommendations"></div>
+</section>
+
+      
+    </section>
+
+    <section id="user-location">
+        <h2>User Location</h2>
+        <button onclick="getUserLocation()">Get My Location</button>
+        <p id="userLocation"></p>
+    </section>
+
+    <footer>
+        <!-- Your footer content goes here -->
+        <p>&copy; 2023 Agri Tech Solution. All rights reserved</p>
+    </footer>
+
+    <!-- Add this button/link where you want to trigger the side navigation toggle -->
+    <button id="toggleNavButton" onclick="toggleSideNav()">Toggle Navigation</button>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

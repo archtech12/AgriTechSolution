@@ -1,0 +1,51 @@
+<!-- dashboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashboard-style.css" />
+    <title>User Dashboard</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>User Dashboard</h1>
+        <!-- You can include a navigation bar specific to the dashboard if needed -->
+    </header>
+
+    <section id="user-info">
+        <h2>User Information</h2>
+        <p id="user-name">Name: Loading...</p>
+        <p id="user-email">Email: Loading...</p>
+    </section>
+
+    <section id="user-preferences">
+        <h2>User Preferences</h2>
+        <form onsubmit="saveUserPreferences(); return false;">
+            <label for="favorite-crop">Favorite Crop:</label>
+            <input type="text" id="favorite-crop" name="favorite-crop" required />
+
+            <label for="notification-preference">Notification Preference:</label>
+            <select id="notification-preference" name="notification-preference" required>
+                <option value="email">Email</option>
+                <option value="sms">SMS</option>
+                <option value="none">None</option>
+            </select>
+
+            <button type="submit">Save Preferences</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Agri Tech Solution. All rights reserved</p>
+    </footer>
+
+    <script src="dashboard-scripts.js"></script>
+
+</body>
+
+</html>
